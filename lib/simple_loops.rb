@@ -21,9 +21,8 @@ end
 def return_string_array(array)
   new_array = []
   array.each do |x|
-    array.to_s
+    x.to_s
     new_array.push(array)
   end 
-  
   new_array
 end 
