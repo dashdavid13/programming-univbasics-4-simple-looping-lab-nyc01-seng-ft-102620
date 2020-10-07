@@ -20,7 +20,7 @@ end
 
 def return_string_array(array)
   new_array = []
-  do 
+  array.collect do 
     array.to_s
     new_array.push(array)
   end 
