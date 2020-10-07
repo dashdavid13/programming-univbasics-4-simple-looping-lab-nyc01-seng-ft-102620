@@ -20,8 +20,8 @@ end
 
 def return_string_array(array)
   new_array = []
-  array.each do |x|
-    x.to_s
+  array do 
+    array.to_s
     new_array.push(array)
   end 
   
