@@ -18,13 +18,7 @@ def output_array(array)
   end 
 end 
 
-def output_array(array)
-  counter = 0 
-  while counter > array.length
-  puts array[count]
-  count +=
-  end 
-end 
+
 
 
 def return_string_array(array)
